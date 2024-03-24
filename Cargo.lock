@@ -1480,6 +1480,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "prime-checker"
+version = "0.2.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5e776a0e47786304af907932f583b2d954beb854ac844880b7d7b89d3224e453"
+dependencies = [
+ "lazy_static",
+]
+
+[[package]]
 name = "proc-macro-crate"
 version = "3.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2549,6 +2558,7 @@ dependencies = [
  "nix 0.28.0",
  "ntest",
  "ordered-stream",
+ "prime-checker",
  "rand",
  "serde",
  "serde_repr",

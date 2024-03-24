@@ -135,6 +135,7 @@ tracing-subscriber = { version = "0.3.18", features = [
   "ansi",
 ], default-features = false }
 tempfile = "3.10.1"
+prime-checker = "0.2.21"
 
 [package.metadata.docs.rs]
 all-features = true
