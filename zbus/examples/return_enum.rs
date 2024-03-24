@@ -21,8 +21,6 @@ impl ReturnEnum {
     async fn get_something(
         &self
     ) -> fdo::Result<ExampleEnum> {
-        self.done.notify(1);
-
         Ok(ExampleEnum::A)
     }
 }
